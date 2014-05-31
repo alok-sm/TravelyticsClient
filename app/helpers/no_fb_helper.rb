@@ -1,0 +1,2 @@
+module NoFbHelper
+end

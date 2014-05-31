@@ -1,0 +1,10 @@
+<html>
+<center>
+<%= @response %>
+<h2>Enter the seat number :<h2>
+<%= form_tag('/no_fb') do %>
+<%= text_field_tag :seatno  %><br>
+<%= submit_tag "submit" %>
+<% end %>
+</center>
+<html>

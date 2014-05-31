@@ -6,12 +6,14 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
+gem 'koala'
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'mongoid'
 gem 'thin'
+gem 'fb_graph'
 group :development do
-  gem 'better_errors'
+   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
   gem 'quiet_assets'
   gem 'rails_layout'
